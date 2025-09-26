@@ -46,7 +46,7 @@ function App() {
   ];
 
   const generateKey = (length: number = 32) => {
-    const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789';
+    const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789#!$&';
     let result = '';
     for (let i = 0; i < length; i++) {
       result += chars.charAt(Math.floor(Math.random() * chars.length));
@@ -166,7 +166,7 @@ function App() {
               <span className="text-sm text-gray-300">Corruption IDE</span>
             </div>
             <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-white via-gray-300 to-white bg-clip-text text-transparent animate-pulse">
-              RIVALS
+              Corruption IDEE
             </h1>
             <p className="text-xl text-gray-400 mb-8 max-w-2xl mx-auto leading-relaxed">
               Best Rivals Script on the market.
@@ -395,11 +395,11 @@ function App() {
           <div className="text-center">
             <div className="flex items-center justify-center mb-4">
               <Shield className="w-6 h-6 mr-2 text-red-400" />
-              <span className="text-xl font-bold text-white">CORRUPTION</span>
+              <span className="text-xl font-bold text-white">Corruption</span>
             </div>
             <p className="text-gray-400 mb-4">Professional script development team</p>
             <p className="text-sm text-gray-500">
-              © 2025 Corruption Dev Team. All rights reserved.
+              © 2025 Corruption IDE
             </p>
           </div>
         </div>
