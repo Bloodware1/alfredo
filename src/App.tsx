@@ -166,7 +166,7 @@ function App() {
               <span className="text-sm text-gray-300">Corruption IDE</span>
             </div>
             <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-white via-gray-300 to-white bg-clip-text text-transparent animate-pulse">
-              Corruption IDEE
+              Corruption IDE
             </h1>
             <p className="text-xl text-gray-400 mb-8 max-w-2xl mx-auto leading-relaxed">
               Best Rivals Script on the market.
